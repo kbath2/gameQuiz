@@ -24,6 +24,11 @@
                     display: none;
                 }
                 
+                .quiz-home-box.show {
+                    display: block;
+                    animation: fadeInRigth 1s ease;
+                }
+                
                 .quiz-home-box h4 {
                     font-size: 30px;
                     font-weight: 400;
@@ -51,6 +56,12 @@
                 .quiz-box {
                     /* background-image: url("../img/bg.jpg"); */
                     background-color: #bdbdbd;
+                    display: none;
+                }
+                
+                .quiz-box.show {
+                    display: block;
+                    animation: fadeInRight 1s ease;
                 }
                 
                 .quiz-box .stats {
@@ -60,6 +71,30 @@
                     font-size: 30px;
                     text-transform: uppercase;
                     color: #000000;
+                }
+                
+                .quiz-box .stats .time-up-text {
+                    /*display: inline-block;*/
+                    color: #d23723;
+                    font-weight: 500;
+                    display: none;
+                }
+                
+                .quiz-box .stats .time-up-text.show {
+                    display: inline-block;
+                    animation: fadeInOut 1s linear infinite;
+                }
+                
+                @keyframes fadeInOut {
+                    0% {
+                        opacity: 0;
+                    }
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
                 }
                 
                 .quiz-box .stats .quiz-time {
@@ -77,6 +112,12 @@
                     line-height: 56px;
                     text-align: center;
                     border-radius: 50%;
+                    display: inline-block;
+                }
+                
+                .quiz-box .stats .quiz-time .remaining-time.less-time {
+                    color: #d23723;
+                    border-color: #d23723;
                 }
                 
                 .quiz-box .stats .score-board {
@@ -144,12 +185,32 @@
                     border-radius: 30px;
                     cursor: pointer;
                     position: relative;
+                    opacity: 0;
+                    animation: zoomIn .3s linear forwards;
+                }
+                
+                @keyframes zoomIn {
+                    0% {
+                        transform: scale(0.8);
+                    }
+                    100% {
+                        transform: scale(1);
+                        opacity: 1;
+                    }
+                }
+                
+                .quiz-box .option-box .option.show-correct {
+                    background-color: #11c466;
+                    border-color: #059e4c;
+                    color: #fff;
+                    transition: all .5s ease;
                 }
                 
                 .quiz-box .option-box .option.correct {
                     background-color: #11c466;
                     border-color: #059e4c;
                     color: #fff;
+                    opacity: 1;
                     animation: pulse 1s linear;
                 }
                 
@@ -183,6 +244,7 @@
                     background-color: #f85943;
                     border-color: #d23723;
                     color: #fff;
+                    opacity: 1;
                     animation: shake 1s linear;
                 }
                 
@@ -248,6 +310,11 @@
                     display: none;
                 }
                 
+                .quiz-box .answer-description.show {
+                    display: block;
+                    animation: fadeInRight 1s ease;
+                }
+                
                 .quiz-box .next-question {
                     margin-top: 20px;
                     text-align: center;
@@ -258,9 +325,20 @@
                     display: none;
                 }
                 
+                .see-result-btn.show,
+                .next-question-btn.show {
+                    display: inline-block;
+                    animation: fadeInRight 1s ease;
+                }
+                
                 .quiz-over-box {
                     text-align: center;
                     display: none;
+                }
+                
+                .quiz-over-box.show {
+                    display: block;
+                    animation: fadeInRigth 1s ease;
                 }
                 
                 .quiz-over-box h1 {
