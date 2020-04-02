@@ -15,7 +15,7 @@
                     max-width: 800px;
                     background-color: #fff;
                     margin: 30px auto;
-                    padding: 50px 40px;
+                    padding: 30px 40px 50px 40px;
                     border-radius: 10px;
                 }
                 
@@ -24,16 +24,47 @@
                     display: none;
                 }
                 
+                .quiz-home-box .category-box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+                
+                .quiz-home-box .category-box div {
+                    background-color: #323248;
+                    border: 2px solid #232340;
+                    color: #fff;
+                    padding: 14px 15px;
+                    text-transform: capitalize;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    font-size: 17px;
+                    font-weight: 500;
+                    margin-top: 8px;
+                    flex-basis: calc(50% - 20px);
+                    max-width: calc(50% - 20px);
+                }
+                
+                .quiz-home-box h1 {
+                    font-size: 50px;
+                    font-family: 'Concert One', cursive;
+                    color: #323248;
+                    margin: 0 0 20px;
+                }
+                
                 .quiz-home-box.show {
                     display: block;
                     animation: fadeInRigth 1s ease;
                 }
                 
                 .quiz-home-box h4 {
-                    font-size: 30px;
+                    font-size: 25px;
                     font-weight: 400;
-                    color: #444444;
+                    color: #323248;
                     margin: 0 0 30px;
+                    padding-bottom: 12px;
+                    border-bottom: 1px solid #323248;
+                    ;
                 }
                 
                 .btn {
@@ -57,6 +88,14 @@
                     /* background-image: url("../img/bg.jpg"); */
                     background-color: #bdbdbd;
                     display: none;
+                }
+                
+                .quiz-box h1 {
+                    margin: 0 0 15px;
+                    text-align: center;
+                    font-size: 30px;
+                    color: #323248;
+                    font-weight: 700;
                 }
                 
                 .quiz-box.show {
