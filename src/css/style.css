@@ -5,6 +5,7 @@
                     background-image: url('../img/fundo.jpg');
                     background-attachment: fixed;
                     font-family: 'Montserat', sans-serif;
+                    padding: 15px;
                 }
                 
                 * {
@@ -402,4 +403,67 @@
                 .start-again-quiz-btn,
                 .go-home-btn {
                     margin-top: 15px;
+                }
+                /* Parte da responsividade */
+                
+                @media (max-width: 767px) {
+                    .quiz-home-box h4 {
+                        font-size: 20px;
+                    }
+                    .quiz-home-box h1 {
+                        font-size: 30px;
+                        margin: 0;
+                    }
+                    .quiz-home-box .category-box div {
+                        flex-basis: 100%;
+                        max-width: 100%;
+                        margin-top: 20px;
+                        font-size: 16px;
+                    }
+                    .quiz-box .question-box .question-text {
+                        font-size: 20px;
+                    }
+                    .custom-box {
+                        padding: 30px 20px 50px 20px;
+                    }
+                    .quiz-box .stats {
+                        font-size: 20px;
+                    }
+                    .quiz-box .stats .quiz-time {
+                        flex-basis: calc(60% - 10px);
+                        max-width: calc(60% - 10px);
+                    }
+                    .quiz-box .stats .score-board {
+                        flex-basis: calc(40% - 10px);
+                        max-width: calc(40% - 10px);
+                    }
+                    .quiz-box .stats .quiz-time .remaining-time {
+                        height: 50px;
+                        width: 50px;
+                        line-height: 46px;
+                    }
+                    .quiz-box .question-box .correct-question-num {
+                        height: 60px;
+                        width: 60px;
+                        line-height: 58px;
+                        top: -30px;
+                        margin-left: -30px;
+                        font-size: 16px;
+                    }
+                    .quiz-box .option-box .option {
+                        flex-basis: 100%;
+                        max-width: 100%;
+                        font-size: 16px;
+                        margin-top: 15px;
+                    }
+                    .btn {
+                        font: 16px;
+                    }
+                    .quiz-over-box h1 {
+                        font-size: 30px;
+                    }
+                    .quiz-over-box h4 {
+                        font-size: 20px;
+                        margin: 10px 0 15px;
+                    }
                 }
