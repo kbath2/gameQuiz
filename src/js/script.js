@@ -59,91 +59,89 @@ const myApp = [{
         ],
     },
     {
-        category: "Internation - Current Affairs",
+        category: "Espanhol",
         quizWrap: [{
-                question: "Which of the following has become the first country to make all forms of public transport free?",
-                options: ["Monaco", "Liechtenstein", "Luxembourg", "Andorra"],
+                question: 'Qual o significado da palavra alfombra?',
+                options: ['sombra', 'assombrar', 'carpete', 'almofada'],
+                answer: 2
+            },
+            {
+                question: 'Qual destas palavras é um falso cognato em espanhol?',
+                options: ['almohada', 'sonrisa', 'amistad', 'cabello'],
+                answer: 0,
+            },
+            {
+                question: "O que quer dizer habitación, em espanhol?",
+                options: ['casa', 'habitação', 'quarto', 'construção'],
                 answer: 2,
-                description: 'Luxembourg in Europe has become the first country to make all forms of public transport free. It is the second smallest country in the European Union'
             },
             {
-                question: "Which of the following has become the first country to make all forms of public transport free?",
-                options: ["Monaco", "India", "Japan", "Singapore"],
-                answer: 3,
-            },
-            {
-                question: "Which country is to host Commonwealth shooting, archery events in 2022?",
-                options: ["Australia", "India", "Brunei", "Cameroon"],
-                answer: 3,
-                description: 'India to host Commonwealth shooting, archery events at Chandigarh in January 2022'
-            },
-            {
-                question: "26 The International Criminal Police Organisation (INTERPOL) has its headquarters at",
-                options: ["Montreal", "Bonn", "Paris", "London"],
-                answer: 2
-            },
-            {
-                question: "30 Where is the headquarters of Botanical Survey of India located?",
-                options: ["Kolkata", "Lucknow", "Ootacmund", "Darjeeling"],
-                answer: 0
-            }
-        ],
-    },
-    {
-        category: "Computer Awareness",
-        quizWrap: [{
-                question: "How many bytes are equal to one kilobyte?",
-                options: ["1050", "1024", "1022", "1000"],
-                answer: 1
-            },
-            {
-                question: "Which of the following is not an input device?",
-                options: ["answerboard", "Monitor", "Joystick", "Microphone"],
-                answer: 1,
-            },
-            {
-                question: "The most powerful computer is_________",
-                options: ["super computer", "micro computer", "mini computer", "all of these"],
-                answer: 0
-            },
-            {
-                question: "Which of the following memories needs refresh ?",
-                options: ["drom", "rom", "sram", "all of these"],
-                answer: 0
-            },
-            {
-                question: "Every computer connected to the Internet is identified by a unique four-part string, known as",
-                options: ["IP address", "Host name", "Domain name", "None of the above"],
-                answer: 0
-            }
-        ],
-    },
-    {
-        category: "Sports",
-        quizWrap: [{
-                question: "When was the first Common Wealth Games held?",
-                options: ["1930", "1934", "1938", "1948"],
-                answer: 0
-            },
-            {
-                question: "In which sports is the participant called pugilist?",
-                options: ["Sprinter", "Boxing", "Wrestling", "Javelin"],
-                answer: 1,
-            },
-            {
-                question: "In which game the term ‘Putting’ is used?",
-                options: ["Chess", "Hocanswer", "Golf", "Billiards"],
-                answer: 2
-            },
-            {
-                question: "Who was the first Test Centurion in India Cricket?",
-                options: ["C.K. Naidu", "Lala Amarnath", "Vinu Mankad", "Mansur Ali Pataudi"],
-                answer: 1
-            },
-            {
-                question: "10 The number of players in each side in Water Polo is",
-                options: ["6", "8", "9", "7"],
+                question: 'Deixei o notebook em meu _____(escritório). Complete a frase com a opção correta:',
+                options: ['cobertizo', 'pasillo', 'recibidor', 'oficina'],
                 answer: 3
+            },
+            {
+                question: 'Talher em espanhol, se escreve: ',
+                options: ['cubiertos', 'cuchara', 'tajín', 'cuchillo'],
+                answer: 0
+            }
+        ],
+    },
+    {
+        category: "Esportes",
+        quizWrap: [{
+                question: 'Qual foi o primeiro clube brasileiro a disputar uma Libertadores?',
+                options: ['Santos', 'Palmeiras', 'Bahia', 'Atlético mineiro'],
+                answer: 2
+            },
+            {
+                question: 'Quem foi derrotado por Gustavo Kuerten, na final do Torneio de Roland Garros de 2000?',
+                options: ['Roger Federer', 'Andre Agassi', 'Magnus Norman', 'Fernando Meligeni'],
+                answer: 2,
+            },
+            {
+                question: 'Qual país foi campeão olímpico de vôlei, nas Olimpíadas de Atenas?',
+                options: ['China', 'Cuba', 'Estados Unidos', 'Brasil'],
+                answer: 0
+            },
+            {
+                question: 'Em que ano foi lançado o documentário "Pelé eterno"?',
+                options: ['2002', '2004', '1998', '2003'],
+                answer: 1
+            },
+            {
+                question: 'Como se chama a Liga americana de basquete?',
+                options: ['NBAE', 'NFL', 'NLBA', 'NBA'],
+                answer: 3
+            }
+        ],
+    },
+    {
+        category: "Ingles",
+        quizWrap: [{
+                question: "Obrigado",
+                options: ['thanks', 'thank', 'good', 'hello'],
+                answer: 0,
+            },
+            {
+                question: "Hello, I am Julios",
+                options: ['Olá, eu sou Julio', 'Olá, Eu sou Julios', 'Certo, eu sou Julios', 'Olá, eu estou em Julho'],
+                answer: 1,
+            },
+            {
+                question: "Um homem e uma mulher",
+                options: ['man and woman', 'A man and women', 'A man and a woman', 'A man our a woman'],
+                answer: 2,
+            },
+            {
+                question: "Ele tem uma casa.",
+                options: ['He can a house', 'He has a house', 'He has a horse', 'she has a house'],
+                answer: 1,
+            },
+            {
+                question: "Hello, what is your name?",
+                options: ['Qual é o seu nome?', 'Me fale o seu nome?', 'Olá, você tem um nome? ', 'Olá, qual é o seu nome?'],
+                answer: 3,
             }
         ],
     }
